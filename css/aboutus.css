@@ -1,0 +1,36 @@
+#aboutUs{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    display: flexbox;
+    flex-direction: column;
+}
+#history{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 3% 0%;
+    /* height: 70vh; */
+    align-items: center;
+    justify-content: center;
+     background-image:url("/RT/7bf68940-e161-4292-8531-add5de6ce142-GettyImages-1282980437.jpg") ;
+         background-position: 85% 0%; 
+        background-attachment: fixed!important;
+         background-size: cover; 
+         background-repeat: no-repeat;
+         position: relative; 
+}
+#ourHistory{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align:justify;
+    justify-content:safe;
+    color: #fff;
+    width: 60%;
+    margin: 3% 18%;
+    padding: 1% 4%;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    }
