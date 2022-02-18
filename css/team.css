@@ -38,9 +38,7 @@
     min-height: 50vh;
 }
 
-#clients h2 h4{
-    padding: 4%;
-}
+
 .client-box{
     position: relative;
     display: flex;
