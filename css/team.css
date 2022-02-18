@@ -38,6 +38,9 @@
     min-height: 50vh;
 }
 
+#clients h2 h4{
+    padding: 4%;
+}
 .client-box{
     position: relative;
     display: flex;
@@ -46,23 +49,26 @@
     justify-content: center;
     width: 100%;
     height:auto;
-    animation: mymove 5s infinite 2s alternate;
+    
 }
 .client-box img{
     position: relative;
     width: 35%;
     margin:2%;
+    height: auto;
     margin-left: 0%;
     border-radius: 20px;
-    
-
+    animation: mymove 5s infinite 2s alternate;
 }
 @keyframes mymove {
-    0%   { padding: 0% 0%;}
+    0%   { width: 35%;height: auto;; margin: 2%;}
+50%  { width: 37.5%;height: auto;margin: 3%;}
+100% { width: 40%;height: auto;margin: 4%;}
+    /* 0%   { padding: 0% 0%;}
   25%  { padding: 0% 2.5%;}
   50%  { padding: 0% 5%;}
   75%  {padding: 0% 7.5%;}
-  100% { padding: 0% 10%;}
+  100% { padding: 0% 10%;} */
   }
 .client-box span h3{
     position: absolute;
