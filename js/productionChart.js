@@ -4,7 +4,7 @@
 
 const ctx2 = document.getElementById('myChart2');
 const labels2 = [
-    "09-10", "10-11", "11-12", "10-11", "11-12", "12-13", "13-14", "14-15", "15-16", "16-17", "17-18", "18-19", "19-20", "20-21"
+    "09-10", "10-11", "11-12", "10-11", "11-12", "12-13", "13-14", "14-15", "15-16", "16-17", "17-18", "18-19", "19-20", "20-21","21-22"
 ];
 
 const data2 = {
@@ -16,7 +16,7 @@ const data2 = {
         // borderWidth: 0,
 
         //     radius: 0,
-        data: [4900, 5500, 5900, 6300, 6700, 7200, 7900, 6000, 8400, 8800, 7000, 6500, 8700, 9700],
+        data: [9900, 10500, 10900, 11300, 11700, 12200, 12900, 11000, 12400, 10300, 8900, 8100, 13700, 14300,16400],
         cubicInterpolationMode: 'monotone',
         borderWidth:4,
         borderColor:"rgba(55, 97, 32, 0.99)",
@@ -57,7 +57,7 @@ const config2 = {
                 display: true,
                 title: {
                     display: true,
-                    text: 'Number of bales'
+                    text: 'Number of bales(1 bale=170kg)'
                 },
                 suggestedMin: 0,
                 suggestedMax: 6000

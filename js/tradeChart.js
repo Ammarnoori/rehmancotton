@@ -63,7 +63,7 @@ const config = {
           display: true,
           title: {
             display: true,
-            text: 'Number of Bags sold'
+            text: 'Green: Number of Bags  Pink:number of Bales'
           },
           suggestedMin: 0,
           suggestedMax: 6000
